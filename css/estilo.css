@@ -21,7 +21,7 @@ h1, h3, h4 {
 
 
 header {
-   background-image: url('../img/capa.jpg');
+   background: url('../img/capa.jpg');
    background-size: cover;
    background-position: center;
 }
