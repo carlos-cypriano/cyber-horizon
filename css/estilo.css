@@ -1,0 +1,50 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url("fonts.css");
+
+html {
+   scroll-behavior: smooth;
+}
+
+/* body {
+   overflow-y: hidden;
+} */
+
+h1, h3, h4 {
+   color: #1EB2A6;
+}
+
+
+header {
+   background-image: url('../img/capa.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+header li.nav-item{
+   text-align: end;
+}
+
+
+header nav.bg-transparente {
+   background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+section {
+   padding-top: 4rem;
+}
+
+a#logo{
+   font-family: 'Azonix';
+}
+
+.images {
+   padding-top: 50px;
+}
