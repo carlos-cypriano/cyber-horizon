@@ -19,10 +19,20 @@ h1, h3, h4 {
    color: #1EB2A6;
 }
 
-div h1#txt {
-   font-family: "Blank_Bold";
+div h1#txt, h2#txt {
+   
+   color: white;
    text-transform: uppercase;
 }
+
+div h1#txt{
+    font-family: "Azonix";
+}
+
+div h2#txt{
+    font-family: "Blank_Bold";
+}
+
 
 #text {
    position: relative;
@@ -34,7 +44,7 @@ div h1#txt {
 
 
 header {
-   background: url('../img/capa.jpg');
+   background: url('../img/video-capa.gif');
    background-size: cover;
    background-position: center;
 }
