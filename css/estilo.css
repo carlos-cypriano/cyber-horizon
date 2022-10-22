@@ -16,7 +16,11 @@ html {
 } */
 
 h1, h3, h4 {
-   color: #1EB2A6;
+   color: #228B22;
+}
+
+p {
+   font-size: 18px;
 }
 
 div h1#txt, h2#txt {
@@ -27,19 +31,29 @@ div h1#txt, h2#txt {
 
 div h1#txt{
     font-family: "Azonix";
+    font-size: 4em;
 }
 
 div h2#txt{
     font-family: "Blank_Bold";
+    color: #F0E68C;
 }
 
 
-#text {
+.text {
    position: relative;
-   top: 50%;
+   top: 45%;
    display: flex;
    justify-content: center;
-   transform: translateY(-50%);
+   transform: translateY(-45%);
+}
+
+.text1 {
+   position: relative;
+   top: 40%;
+   display: flex;
+   justify-content: center;
+   transform: translateY(-40%);
 }
 
 
