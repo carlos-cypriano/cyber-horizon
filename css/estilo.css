@@ -39,7 +39,6 @@ div h2#txt{
     color: #F0E68C;
 }
 
-
 .text {
    position: relative;
    top: 45%;
@@ -56,7 +55,6 @@ div h2#txt{
    transform: translateY(-40%);
 }
 
-
 header {
    background: url('../img/video-capa.gif');
    background-size: cover;
@@ -67,12 +65,14 @@ header li.nav-item{
    text-align: end;
 }
 
-
 header nav.bg-transparente {
    background: rgba(0, 0, 0, 0.6);
 }
 
-
+.navbar-toggler{
+   color: rgba(60, 179, 113, 0.5);
+   border-color: rgba(60, 179, 113, 0.5);
+}
 
 section {
    padding-top: 3rem;
@@ -85,3 +85,8 @@ a#logo{
 .images {
    padding-top: 50px;
 }
+
+footer{
+   background-color: black;
+}
+
