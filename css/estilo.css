@@ -87,7 +87,7 @@ a#logo{
 }
 
 footer{
-   background-color: black;
+   background-color: #1C1C1C;
    padding-top: 20px;
 }
 
@@ -96,3 +96,53 @@ footer{
    justify-content: end;
 } */
 
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+   .btn-custom{
+       margin: 8px 15px;
+       font-size: 1em;
+   }
+
+   footer h4{
+       margin-top: 8px;
+   }
+}
+
+@media (min-width: 0px) and (max-width: 575.98px){
+   div h1#txt{
+      font-family: "Azonix";
+      font-size: 3em;
+  }
+
+  section h1 {
+      font-size: 32px;
+  }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   div h1#txt{
+      font-family: "Azonix";
+      font-size: 3.5em;
+  }
+
+  section h1 {
+   font-size: 32px;
+}
+}
+
+/* Dispositivos médios (tablets com menos de 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+/* Dispositivos large (desktops com menos de 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+/* Dispositivos extra large (desktops grandes)*/
+@media (min-width: 1200px) {
+  
+}
