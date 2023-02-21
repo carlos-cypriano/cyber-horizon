@@ -95,6 +95,26 @@ a#logo {
    height: 194px;
 }
 
+/* Editando Cards Templates */
+.team-card{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+
+#team-card-1{
+   background: url('/img/carlos-cypriano.jpg') center;
+}
+
+#team-card-2{
+   background: url('/img/guilherme.jpg') center;
+}
+
+#team {
+   display: flex;
+   justify-content: center;
+}
+
 footer {
    background-color: #1C1C1C;
    padding-top: 20px;
@@ -134,6 +154,7 @@ footer {
    section h1 {
       font-size: 32px;
    }
+   
 }
 
 /* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
