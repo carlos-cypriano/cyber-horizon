@@ -20,6 +20,17 @@
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link rel="icon" href="img/novo_logo_cyber_horizon.svg">
 
+  <!-- Basic stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+
+  <!--     Default Theme    -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+
   <script defer src="https://friconix.com/cdn/friconix-0.2276.js"> </script>
 </head>
 
@@ -48,6 +59,9 @@
             </li>
             <li class="nav-item">
               <a href="#contato" class="nav-link text-success">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="#equipe" class="nav-link text-success">Equipe</a>
             </li>
 
           </ul>
@@ -87,45 +101,27 @@
   </section>
 
   <section id="templates">
-    <div class="container">
+    <div class="container-fluid">
       <h1 class="mb-4">Templates</h1>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-
-        <!-- Wrapper for slides -->
-        <div id="gallery" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col">
-                  <a href="https://carlos-cypriano.github.io/site-finans/">
-                    <img class="img-fluid" src="img/finans-image.PNG" alt="Image 1" />
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="https://carlos-cypriano.github.io/site-museu-nacional/">
-                    <img class="img-fluid" src="img/museu_image.PNG" alt="Image 2" />
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="https://carlos-cypriano.github.io/clone-spotify/">
-                    <img class="img-fluid" src="img/spotfy-image.PNG " alt="Image 3">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-
-          <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+      <div class="owl-carousel owl-theme">
+        <div class="template">
+          <a href="https://carlos-cypriano.github.io/site-museu-nacional/">
+            <img class="card-img-top" style="height: 12em;" src="img/museu_image.png" alt="card-image-cap">
           </a>
         </div>
+        <div class="template">
+          <a href="http://cypriano-portfolio.netlify.app">
+            <img class="card-img-top" style="height: 12em;" src="img/meu-site.png" alt="card-image-cap">
+          </a>
+        </div>
+        <div class="template">
+          <a href="https://carlos-cypriano.github.io/site-finans/">
+            <img class="card-img-top" style="height: 12em;" src="img/finans-image.PNG" alt="card-image-cap">
+          </a>
+        </div>
+      </div>
+
+    </div>
 
   </section>
 
@@ -179,6 +175,33 @@
     </div>
   </section>
 
+  <section id="equipe">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1 class="mb-4">Quem trabalha Conosco</h1>
+          <div class="owl-carousel owl-theme">
+            <div class="template">
+              <a href="https://carlos-cypriano.github.io/site-museu-nacional/">
+                <img class="card-img-top" style="height: 12em;" src="img/museu_image.png" alt="card-image-cap">
+              </a>
+            </div>
+            <div class="template">
+              <a href="https://carlos-cypriano.github.io/clone-spotify/">
+                <img class="card-img-top" style="height: 12em;" src="img/spotfy-image.png" alt="card-image-cap">
+              </a>
+            </div>
+            <div class="template">
+              <a href="https://carlos-cypriano.github.io/site-finans/">
+                <img class="card-img-top" style="height: 12em;" src="img/finans-image.PNG" alt="card-image-cap">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <footer class="mt-4">
     <div class="container">
@@ -223,6 +246,35 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      stagePadding: 50,
+      loop: true,
+      margin: 300,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        600: {
+          items: 3,
+          nav: false
+        },
+        1000: {
+          items: 5,
+          nav: true,
+          loop: false
+        }
+      }
+    })
+  </script>
 </body>
 
 </html>
