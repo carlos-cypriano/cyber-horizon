@@ -96,18 +96,24 @@ a#logo {
 }
 
 /* Editando Cards Templates */
-.team-card{
+/* .team-card{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+} */
+
+#team-card-1 img{
+   background: url('/img/carlos-cypriano.jpg') center;
    width: 200px;
    height: 200px;
    border-radius: 50%;
 }
 
-#team-card-1{
-   background: url('/img/carlos-cypriano.jpg') center;
-}
-
-#team-card-2{
+#team-card-2 img{
    background: url('/img/guilherme.jpg') center;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
 }
 
 #team {
